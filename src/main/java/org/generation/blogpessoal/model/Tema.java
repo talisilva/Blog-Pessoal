@@ -52,4 +52,5 @@ public void setDescricao(String descricao) {
 @JsonIgnoreProperties("tema")
 private List<Postagem>postagem;
 
+
 }

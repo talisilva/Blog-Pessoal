@@ -70,6 +70,10 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 		@ManyToOne
 		@JsonIgnoreProperties("postagem")
 		private Tema tema;
+		
+		@ManyToOne
+		@JsonIgnoreProperties("postagem")
+		private Usuario usuario;
 
 	}
 
