@@ -48,7 +48,6 @@ public class Usuario {
 	@JsonIgnoreProperties("usuario")
 	private List <Postagem> postagem;
 
-	// Primeiro método Construtor
 
 	public Usuario(long id, String nome, String usuario, String senha, LocalDate dataNascimento) {
 		this.id = id;
@@ -58,7 +57,6 @@ public class Usuario {
 		this.dataNascimento = dataNascimento;
 	}
 
-	// Segundo método Construtor
 
 	public Usuario() {	}
 
